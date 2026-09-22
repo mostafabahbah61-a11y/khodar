@@ -1983,3 +1983,35 @@ footer {
 .chat-suggestions { padding-bottom: 16px; }
 .chat-suggestions button { width: 100%; text-align: start; }
 
+
+/* === PREMIUM ORANGE CALL BUTTON === */
+.button-call {
+  background: linear-gradient(135deg, #ff9d1f 0%, #f36b0a 100%) !important;
+  color: #fff !important;
+  border: 1px solid rgba(255,180,80,.8) !important;
+  box-shadow: 0 8px 24px rgba(243,107,10,.28), inset 0 1px 0 rgba(255,255,255,.22);
+  font-weight: 700;
+}
+
+.button-call:hover {
+  background: linear-gradient(135deg, #ffad38 0%, #ff760d 100%) !important;
+  color: #fff !important;
+  border-color: #ffc16b !important;
+  transform: translateY(-3px) scale(1.025);
+  box-shadow: 0 12px 32px rgba(243,107,10,.42), 0 0 18px rgba(255,145,30,.18);
+}
+
+.button-call:active {
+  transform: translateY(-1px) scale(.99);
+}
+
+[data-theme='light'] .button-call {
+  background: linear-gradient(135deg, #ff9d1f 0%, #f36b0a 100%) !important;
+  color: #fff !important;
+  border-color: #ffb14a !important;
+}
+
+[data-theme='light'] .button-call:hover {
+  background: linear-gradient(135deg, #ffad38 0%, #ff760d 100%) !important;
+  color: #fff !important;
+}
