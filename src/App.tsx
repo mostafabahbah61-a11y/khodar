@@ -1024,7 +1024,7 @@ function App() {
               <button className="button button-gold" onClick={() => setExploreOpen(true)}>
                 {t.explore} <ArrowUpRight size={18} />
               </button>
-              <button className="button button-ghost" onClick={() => goToOrder()}>
+              <button className="button button-gold" onClick={() => goToOrder()}>
                 {t.order}
               </button>
               <button className="button button-call" onClick={() => setCallMeOpen(true)}>
